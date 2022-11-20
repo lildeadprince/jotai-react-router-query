@@ -1,0 +1,31 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  "tasks": {
+    "example": {
+      "name": "Run example page",
+      "command": "pnpm example",
+      "runAtStart": true
+    },
+    "test": {
+      "name": "Run tests",
+      "command": "pnpm test",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "Format code",
+      "command": "pnpm format",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "Check code",
+      "command": "pnpm lint",
+      "runAtStart": false
+    }
+  }
+}
