@@ -1,0 +1,51 @@
+{
+  "name": "jotai-react-router-query",
+  "version": "0.1.0",
+  "description": "A hook to synchronize URL param from react router into Jorai atom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lildeadprince/jotai-react-router-query.git"
+  },
+  "main": "src/index.js",
+  "types": "./src/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "jotai",
+    "react-router",
+    "react-router-dom",
+    "react",
+    "url",
+    "location"
+  ],
+  "author": "Xirtid Nepla <avadend.piroserpen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jotai": "^1.10.0",
+    "react": "^18.2.0",
+    "react-router-dom": "^6"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/coverage-c8": "^0.25.2",
+    "happy-dom": "^7.7.0",
+    "jotai": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.2"
+  }
+,
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
+    "react-router-dom": ">=6"
+  },
+  "scripts": {
+
+    "test": "vitest",
+    "test:ci": "vitest run",
+    "coverage": "vitest run --coverage"
+  }
+}

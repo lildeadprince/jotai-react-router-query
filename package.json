@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "format": "rome format ./ --write",
+    "lint": "rome check ./ --apply-suggested",
+    "test": "pnpm -r test:ci",
+    "example": "pnpm -r dev"
+  },
+  "devDependencies": {
+    "rome": "^10.0.1"
+  }
+}
